@@ -1,16 +1,21 @@
-import hello from './subpackage1/hello';
+// import hello from './subpackage1/hello';
+// hello('Felix')
+
+import pure from './subpackage1/pure';
+pure()
+
 
 import html from './subpackage1/html';
-import pure from './subpackage1/pure'
+console.log(html("felix"))
 
-hello('Felix')
-pure()
+
+// hello(1)
+
 
 // hello("Felix")
 
-console.log("html", html("felix"))
 
-import * as React from 'preact';
+// import * as React from 'preact';
 
-React.render(html("Felix"), document.getElementById("root"))
+// React.render(html("Felix"), document.getElementById("root"))
 
