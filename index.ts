@@ -1,12 +1,11 @@
-// import hello from './subpackage1/hello';
-// hello('Felix')
-
+import hello from './subpackage1/hello';
 import pure from './subpackage1/pure';
+import html from './subpackage1/html';
+
+console.log(html("felix"))
+hello('Felix')
 pure()
 
-
-import html from './subpackage1/html';
-console.log(html("felix"))
 
 
 // hello(1)
