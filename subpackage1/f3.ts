@@ -1,5 +1,5 @@
 function hello(name: string) {
-  console.log("name: ", name);
+	return "f3: " + name;
 }
 
 export default hello;

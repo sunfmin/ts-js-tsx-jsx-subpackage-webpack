@@ -1,5 +1,5 @@
 function pure() {
-    console.log("pure2")
+    return "f1"
 }
 
 module.exports = pure
