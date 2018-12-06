@@ -1,6 +1,5 @@
 function hello(name: string) {
-    console.log("name: ", name)
+  console.log("name: ", name);
 }
 
-export default hello
-
+export default hello;
